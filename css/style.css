@@ -11,6 +11,30 @@ body h1 {
   font-family: "Oxygen", sans-serif;
 }
 
+#h1 {
+  font-size: 4rem;
+}
+
+#h2 {
+  font-size: 3rem;
+}
+
+#h3 {
+  font-size: 2.5rem;
+}
+
+#h4 {
+  font-size: 2rem;
+}
+
+#h5 {
+  font-size: 1.25rem;
+}
+
+#body-fontsize {
+  font-size: 16px;
+}
+
 /* GRID */
 
 .container-fluid {
@@ -27,8 +51,7 @@ body h1 {
 h1,
 h2,
 h3,
-h4,
-h5 {
+h4 {
   margin: 2.5rem 0;
 }
 
@@ -39,16 +62,22 @@ h5 {
 /* Image Teaser 4/4/4 */
 
 .image-teaser .card {
-  padding-right: 64px;
+  padding-right: 140px;
   border-style: none;
   border-color: white;
 }
 
 .image-teaser .card-body {
-  padding: 20px 0;
+  padding: 0;
+  margin: 0;
 }
 
 .image-teaser .card-img-top {
+  margin: 0;
+  padding: 0;
+}
+
+.image-teaser .p-3 {
   margin: 0;
   padding: 0;
 }
@@ -59,6 +88,8 @@ h5 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  padding-right: 200px;
 }
 
 /* Textteaser 4/8 4/4/4 */
@@ -69,7 +100,7 @@ h5 {
 }
 
 .text-teaser .card {
-  padding-right: 64px;
+  padding: 0 32px;
   border-style: none;
   border-color: white;
   max-width: 350px;
@@ -98,3 +129,35 @@ h5 {
 .text-teaser a {
   margin: 30px 0;
 }
+
+/* TEXTBLOCK BLACK */
+
+.background-black {
+  background-color: rgb(0, 0, 0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.background-black .jumbotron {
+  background-color: black;
+}
+
+.background-black .textblock {
+  color: white;
+}
+
+.textblock p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: grey;
+}
+
+.textblock hr {
+  background-color: grey;
+  margin: 10px;
+}
+
