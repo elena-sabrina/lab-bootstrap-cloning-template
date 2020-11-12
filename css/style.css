@@ -1,22 +1,100 @@
+/* FONTS */
+
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap");
 
-body h1,
-h2,
-h3,
-h4 {
-  font-family: "Oxygen", sans-serif;
-}
-
-body p,
-ul,
-li {
+body {
   font-family: "Open Sans", sans-serif;
 }
 
-.herostage div {
+body h1 {
+  font-family: "Oxygen", sans-serif;
+}
+
+/* GRID */
+
+.container-fluid {
+  margin: 0 60px;
+  padding: 0;
+}
+
+/* HEROSTAGE */
+
+.herostage {
+  height: 600px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 2.5rem 0;
+}
+
+.jumbotron {
   background-color: white;
 }
-.herostage h1 {
-  margin: 100px 0;
+
+/* Image Teaser 4/4/4 */
+
+.image-teaser .card {
+  padding-right: 64px;
+  border-style: none;
+  border-color: white;
+}
+
+.image-teaser .card-body {
+  padding: 20px 0;
+}
+
+.image-teaser .card-img-top {
+  margin: 0;
+  padding: 0;
+}
+
+/* Textblock 4/8 4/4/4 */
+
+.textblock .jumbotron {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Textteaser 4/8 4/4/4 */
+
+.text-teaser .card-group {
+  display: flex;
+  justify-content: center;
+}
+
+.text-teaser .card {
+  padding-right: 64px;
+  border-style: none;
+  border-color: white;
+  max-width: 350px;
+}
+
+.text-teaser i {
+  color: rgb(0, 17, 255);
+  font-size: large;
+}
+
+.text-teaser ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.text-teaser .card-text {
+  padding: 0;
+}
+
+.text-teaser .cta-link {
+  display: flex;
+  justify-content: center;
+}
+
+.text-teaser a {
+  margin: 30px 0;
 }
